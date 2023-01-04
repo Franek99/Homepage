@@ -1,0 +1,21 @@
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.table__cell {
+    text-align: center;
+    border: 2px solid rgb(197, 129, 129);
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.table__cell--header {
+    background-color: red;
+    color: white;
+    font-weight: normal;
+}
+
+.table__row :hover {
+    background-color: #ddd;
+}

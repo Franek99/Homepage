@@ -1,0 +1,15 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    background: rgb(242, 240, 240);
+}
+
+.grey {
+    background-color: rgb(230, 224, 224);
+}
+
+.button {
+    cursor: pointer;
+}

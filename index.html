@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="container js-container">
+    <nav class="navigation ">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#Kilkasłowosobie" class="navigation__link">Kilka słów o sobie</a>
+            </li>
+            <li class="navigation__item"><a href="#Zainteresowania " class="navigation__link">Zainteresowania</a>
+            </li>
+            <li class="navigation__item"><a href="#Ulubioneutworymuzyczne" class="navigation__link">Ulubione Utwory
+                    Muzyczne</a></li>
+            <li class="navigation__item"><a href="#Ulubionegry" class="navigation__link">Ulubione Gry</a></li>
+            <li class="navigation__item"><a href="#Kontakt" class="navigation__link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header class="header  header--centered">
+        <h1 class="header__header"> Przyszły Frontendowiec </h1>
+        <p>
+            <button class="js-przycisk"><span class="js-themeName1">ukryj</span> zdjęcie </button>
+        </p>
+        <img class="header__img js-img" width="200" height="300" src=https://i.postimg.cc/3xLf9WNY/Tomek.jpg
+            alt="Tomasz Franusik">
+        <p class="header__text">Tomasz Franusik</p>
+    </header>
+
+    <main>
+        <article class="article" id="Kilkasłowosobie">
+            <h2 class="article__header"> Kilka słów o Sobie</h2>
+            <p>Cześć, mam na imię Tomasz. Mam 23 lata i mieszkam w górach w miejscowości Żywiec.
+                Od 2 lat pracuje jako kurier w firmie DPD. W końcu przyszedł czas aby nauczyć sie czegoś nowego,
+                więc postanowiłem zapisać sie na kurs informatyczny <span class="arcitle__text">
+                    Frontend Development</span> ze strony <span class="arcitle__text"> YouCode </span>
+                Mam nadzieję że dzięki temu otwieram sobie drogę do lepszej przyszłości.
+            </p>
+        </article>
+
+        <article class="article" id="Zainteresowania">
+            <h2 class="article__header"> Zainteresowania, hobby</h2>
+            <ul>
+                <li>Piłka Nożna</li>
+                <li>Taniec</li>
+                <ul>
+                    <li>Bachata</li>
+                    <li>Shuffle Dance</li>
+                </ul>
+                <li>Muyzka</li>
+                <ul>
+                    <li>Rock</li>
+                    <li>Heavy Metal</li>
+                </ul>
+            </ul>
+        </article>
+        <article class="article" id="Ulubioneutworymuzyczne">
+            <h2 class="article__header">Moje ulubione utwory muzyczne </h2>
+
+            <table class="table">
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col"> Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col"> Wykonawca</th>
+                    <th class="table__cell table__cell--header" scope="col"> Album</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> Highway To Hell </th>
+                    <td class="table__cell"> AC DC </td>
+                    <td class="table__cell"> Highway To Hell</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> Primo Victoria</th>
+                    <td class="table__cell"> Sabaton </td>
+                    <td class="table__cell"> Attero Dominatus </td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> The Islander </th>
+                    <td class="table__cell"> Nightwish</td>
+                    <td class="table__cell"> Dark Passion Play</td>
+                </tr>
+            </table>
+        </article>
+        <article class="article" id="Ulubionegry">
+            <h2 class="article__header">Moje ulubione gry </h2>
+            <table class="table">
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col"> Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col"> Producent</th>
+                    <th class="table__cell table__cell--header" scope="col"> Rok Produkcji</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> Wiedzmin 3:Dziki Gon </th>
+                    <td class="table__cell"> CD Project </td>
+                    <td class="table__cell"> 2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> Horizon: Zero Down</th>
+                    <td class="table__cell"> Guerrilla Games</td>
+                    <td class="table__cell"> 2017</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row"> God of War 4 </th>
+                    <td class="table__cell"> SIE Santa Monica Studio </td>
+                    <td class="table__cell"> 2018 </td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <footer class="footer" id="Kontakt">
+        <h2 class="footer__header">Kontakt</h2>
+        <p>Numer telefonu:</p>
+        <a>000 000 000</a>
+        <p>Adres e-mail:</p>
+        <a>franusiktomasz@wp.pl</a>
+        <p>Social media: </p>
+        Instagram:<a rel="noreferrer noopener" target="blank" href="https://www.instagram.com/franus99/"> Tomasz
+            Franusik
+
+            (link otwiera sie w nowej karcie)</a>
+    </footer>
+    <button class="button js-button"> Włącz <span class="js-themeName">szare</span> tło</button>
+
+</body>
+
+</html>

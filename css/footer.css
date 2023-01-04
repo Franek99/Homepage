@@ -1,0 +1,13 @@
+.footer__header{
+    color: black;
+    background-color: grey;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.footer {
+    border: solid;
+    padding: 10px;
+    background-color: rgb(240, 225, 209);
+    font-size: 15px;
+}

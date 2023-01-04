@@ -1,0 +1,18 @@
+.header--centered{
+    text-align: center;
+}
+
+.header__header{
+color: rgb(2, 0, 0);
+    background-color: grey;
+    padding: 10px;
+}
+
+.header__img {
+    border: solid;
+    border-radius: 40px;
+}
+
+.header__text{
+font-size: 30px;
+}

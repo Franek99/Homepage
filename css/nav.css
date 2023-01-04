@@ -1,0 +1,30 @@
+.navigation {
+    padding: 20px;
+   
+}
+
+.navigation__list {
+    list-style: none;
+    
+}
+
+.navigation__item {
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.navigation__link {
+    border: solid;
+    color: grey;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: grey;
+}
+
+.navigation__link:hover {
+    color: white;
+}
