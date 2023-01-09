@@ -22,24 +22,20 @@
         const img = document.querySelector(".js-img");
         const themeName1 = document.querySelector(".js-themeName1");
 
-        themeName1.innerText = img.hidden ? "pokaż" : "ukryj"
+        themeName1.innerText = img.hidden ? "ukryj" : "pokaż"
         img.hidden = !img.hidden;
 
-    }
-
-    const action = () => {
-        const przycisk = document.querySelector(".js-przycisk");
-        przycisk.addEventListener("click", hiddenImg);
     }
 
     const init = () => {
         const button = document.querySelector(".js-button");
         button.addEventListener("click", toggleBackground);
+        const przycisk = document.querySelector(".js-przycisk");
+        przycisk.addEventListener("click", hiddenImg);
 
         welcome();
     }
 
-    action();
     init();
 }
 
